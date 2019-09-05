@@ -1,0 +1,768 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.clear
+{
+    clear: both;
+}
+.home
+{
+  height: 100vh;
+  background-image: url(man.jpg); 
+    background-size: 100% 100%;
+}
+.home nav .underlayer
+{
+    width: 85%;
+    margin: auto;
+    
+}
+
+nav ul
+{
+    overflow: auto;
+}
+nav ul .Fokir
+{
+    float: left;
+    
+   
+}
+nav ul li
+{
+    float: right;
+    padding: 15px;
+    list-style-type:none;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+nav ul li a:hover
+{
+    color: #ff305b;
+}
+nav ul .Fokir a
+{
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 600;
+}
+.clear
+{
+    clear: both;
+}
+.home .layer
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+
+}
+.home  
+{
+    color: white;
+
+   
+    
+}
+.home .content
+{
+    text-align: center;
+    padding: 200px;
+
+}
+.home .content h3
+{
+    font-family: "Source Sans Pro", sans-serif;
+        font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+}
+.home .content h1
+{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0px;
+}
+.home .content h4
+{
+ font-size: 26px;
+    margin: 10px;
+    font-weight: 300;
+    display: inline;
+    
+
+}
+.home .content h4:after
+{
+    animation-name:word;
+    animation-duration: s;
+    content:"Designer";
+    animation-iteration-count: infinite;
+    
+    animation-direction: normal;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+   
+
+}
+
+@keyframes word
+{
+    
+    0%{content:"|" ;}
+    3%{content:"D|";}
+    6%{content:"De|";}
+    8%{content:"Des|";}
+     11%{content:"Desi|";}
+    14%{content:"Desig|";}
+    17%{content:"Design|";}
+    20%{content:"Designe|";}
+  25%{content:"Designer |";}
+   27%{content:"Designe|";}
+    29%{content:"Design|";}
+  31%{content:"Desig|";}
+   34%{content:"Desi|";}
+     37%{content:"Des|";}
+    40%{content:"De|";}
+     42%{content:"D|";}
+    
+    45%{content:"|" ;}
+     48%{content:"D|";}
+     50%{content:"De|";}
+     53%{content:"Dev|";}
+     56%{content:"Deve|";}
+     59%{content:"Devel|";}
+     62%{content:"Develo|";}
+     65%{content:"Develop|";}
+     67%{content:"Develope|";}
+    71%{content:"Developer |";}
+    76%{content:"Develope|";}
+    78%{content:"Develop|";}
+    82%{content:"Develo|";}
+      84%{content:"Devel|";}
+     88%{content:"Deve|";}
+     92%{content:"Dev|";}
+    96%{content:"De|";}
+      100%{content:"D|";}
+     
+        
+
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .client .alex .alex img, .client .alex .desc
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    
+    .services .service .same
+    {
+        width:50%;
+    }
+    .portfolio .port .element
+    {
+        width:50%;
+    }
+}
+@media only screen and (max-width: 848px)
+{
+    nav ul li a
+    {
+        display: none;
+    }
+    nav ul li .Fokir
+    {
+        display:contents;
+    }
+    .home .content
+    {
+    text-align: center;
+    padding: 80px;
+
+    }
+   .Hello .member1 .image
+    {
+    
+    left: 0px;
+    top: 0px;
+    
+    
+   }
+    .Hello .member1
+   {
+       border:none;
+   }
+    .Hello .member1, .Hello .member2
+    {
+        
+        float: none;
+        width: 100%;
+    }
+    .Hello .mem1,.mem2
+    {
+        float: none;
+        width: 100%;
+    }
+    .Hello
+    {
+        
+        padding: 50px 0px;
+    }
+   
+}
+@media only screen and (max-width: 768px)
+{
+    *
+    {
+        border:none;
+    }
+    .Hello .member1, .Hello .member2
+    {
+        
+        float: none;
+        width: 100%;
+    }
+    .Hello .mem1,.mem2
+    {
+        float: none;
+        width: 100%;
+    }
+    .Hello
+    {
+        
+        padding: 50px 0px;
+    }
+    .Hello .member1 .border
+   {
+    
+    border:none;
+     
+   }
+    .services .service .same
+    
+    {
+        width: 100%;
+    }
+    .portfolio .port .element
+    {
+        width:100%;
+    }
+    .monos .mono .one
+    {
+        width: 100%;
+    }
+    .blogs .blog .bg
+    {
+        width: 100%;
+    }
+    .contacts .formy input
+    {
+        width: 100%;
+    }
+}
+
+
+.mid
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.Hello
+{
+        padding: 0px 100px;
+
+}
+.member1,.member2
+{
+    width: 50%;
+    float:left;
+    box-sizing: border-box;
+    
+}
+.member1
+{
+    text-align: right;
+    position: relative;
+    padding: 10% 0% 10% 10%;
+}
+.member2
+{
+    text-align: left;
+    padding: 10% 10% 10% 0%;
+}
+.image
+{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+.mem1,.mem2
+{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+hr
+{
+    border: 1px dotted black;  
+    
+}
+.member2 p
+{
+    color:  rgb(85, 85, 85);
+}
+.member2 ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+.member2 ul li
+{
+    margin: 0px;
+    padding: 0px;
+    color:  rgb(85, 85, 85);
+    
+}
+.member2 ul span
+{
+    color: black;
+}
+.member2 a
+{
+    background-color: rgb(237, 37, 8);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 30px 10px;
+    border: transparent 1px;
+    border-radius: 5px;
+}
+.member2 h2:before
+{
+    content: " ";
+    height: 100%;
+    width: 4px;
+    background: #ff305b; 
+    position: absolute;
+    left: -10px;
+}
+.member2 h2
+{
+    position: relative;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+ 
+ .black
+{
+   
+   position: absolute;
+    
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    transition: 3s;
+    z-index: 20;
+ 
+}
+.image:hover .black
+{
+    
+    
+    z-index: 100;
+    top: 0%;
+}
+
+.Hello .member1 .border
+{
+    width: 80%;
+    height: 60%;
+    border: solid 8px;
+     
+}
+.mid1
+{
+    position: relative;
+}
+.services
+{
+    background-color: rgb(241, 241, 241);
+  
+    padding: 50px;
+    
+}
+.services h2, .portfolio h2, .blogs h2, .contacts h2
+
+{
+    color:rgb(51, 51, 51);
+    text-align: center;
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    width: 20%;
+    margin: auto;
+    
+    
+}
+.service
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+.services .same
+{
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+.services .same img
+{
+    width: 40px;
+    height: 40px;
+}
+.services .same:hover
+{
+    background-color: white;
+}
+.services h2:after, .portfolio h2:after, .client h2:after, .blogs h2:after, .contacts h2:after
+
+{
+    content:"";
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    height: 2px;
+}
+.services h2:before, .portfolio h2:before, .client h2:before, .blogs h2:before , .contacts h2:before
+
+{
+    content:"";
+    position: absolute;
+    top: 105%;
+    left: 35%;
+    
+    width: 30%;
+    margin: auto;
+    height: 15px;
+    border-bottom: 1px dotted red;
+    border-top: 1px dotted red;
+    
+}
+.portfolio
+{
+    padding: 50px;
+    text-align: center;
+   
+}
+.portfolio a
+{
+    margin-top: 50px;
+    text-decoration: none;
+    
+    color: black;
+    padding: 10px;
+   
+}
+
+.mid3
+{
+    padding-top: 50px;
+    
+}
+.port
+{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+   
+}
+ .element
+{
+    float: left;
+    box-sizing: border-box;
+    width: 33.333333%;
+    padding: 20px;
+    transition: 2s;
+    
+    
+    
+}
+.element img
+{
+    
+    width: 100%;
+    
+}
+.cont
+{
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    
+}
+.element:hover .op 
+{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 50;
+}
+.op
+{
+    transition: 2s;
+}
+.monos
+{
+    background-color: rgb(241, 241, 241);
+    padding: 50px;
+}
+.mono
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.mono .one
+{
+    float: left;
+    width: 25%;
+}
+.mono .one img
+{
+    width: 40px;
+    height: 40px;
+}
+.mono .one h3
+{
+    font-family: "Source Sans Pro", sans-serif;
+font-size: 26px;
+    font-weight: 800;
+}
+.mono .one h5
+{
+    color: rgb(85, 85, 85);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.client h2
+{
+    color:rgb(51, 51, 51);
+    text-align: center;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    width: 20%;
+    margin: auto;
+}
+.client
+{
+    padding: 50px;
+    margin-bottom: 20px;
+
+    
+   
+    
+}
+.alex
+{
+    width: 55%;
+    margin: auto;
+    background-color:rgb(241, 241, 241);
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+   
+    
+}
+.alexim
+{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+  
+    
+}
+.alexim img
+{
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+}
+.desc
+{
+    float: left;
+    width: 80%;
+    box-sizing: border-box;
+   
+
+}
+.desc img
+{
+    height: 15px;
+    width: 15px;
+}
+.redun
+{
+    background-color: red;
+    height:300px;
+    width:300px;
+    position: absolute;
+    left: -180px;
+    top: -150;
+    transform: rotate(-45deg);
+    z-index: 20;
+    
+    
+        
+}
+.blogs
+{
+    padding: 50px;
+    background-color: rgb(241, 241, 241);;
+}
+.blog
+{
+    width: 80%;
+    margin: auto;
+}
+.blog .bg
+{
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.bg img
+{
+    width: 100%;
+}
+.bg .arr
+{
+    height: 15px;
+    width: 15px;
+}
+.bg a
+{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+iframe
+{
+    width: 100%;
+    height: 25%;
+}
+.contacts .formy
+{
+    padding: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.contacts input
+{
+    margin: 20px;
+    width: 37.9%;
+    padding: 10px;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+ .formy .sub , .formy .msg
+{
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.formy .msg
+{
+    padding: 50px 0px;
+    
+}
+.formy button
+{
+    color: white;
+    background-color: #ff305b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    margin-left: 20px;
+}
+.formy .btn
+{
+    width: 100%;
+    text-align: left;
+    margin-left: 80px;
+}
+
+    
+.contacts button
+{
+    text-align: left;
+    
+
+}
+.end
+{
+    padding: 50px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    
+}
+
+.end p
+{
+    color: white;
+}
+
+
+
+
+
+
